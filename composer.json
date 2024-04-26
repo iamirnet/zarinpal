@@ -1,0 +1,22 @@
+{
+    "name": "iamirnet/zarinpal",
+    "description": "Zarinpal for payment gateway",
+    "keywords": ["php","Zarinpal", "Zarinpal Payment", "payment", "pay", "gateway"],
+    "homepage": "https://php.iamir.net/packages/zarinpal",
+    "license": "MIT",
+    "authors": [
+        {
+            "name" : "iamirnet",
+            "email" : "me@iamir.net",
+            "homepage": "https://iamir.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "iAmirNet\\Zarinpal\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
